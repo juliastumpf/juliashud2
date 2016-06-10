@@ -1,0 +1,208 @@
+"Resource/UI/HudMedicCharge.res"
+{
+	"Background"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"Background"
+		visible 0
+		enabled 0
+	}
+
+	"ChargeLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ChargeLabel"
+		"xpos"			"172"
+		"ypos"			"10"
+		"zpos"			"2"
+		"wide"			"128"
+		"tall"			"64"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#TF_UberchargeMinHUD"
+		"textAlignment"	"west"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"juliaLarge"
+		"fgcolor_override"	"juliaFG"
+	}
+
+	"ChargeLabelShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ChargeLabelShadow"
+		"xpos"			"172"
+		"ypos"			"10"
+		"zpos"			"1"
+		"wide"			"128"
+		"tall"			"64"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#TF_UberchargeMinHUD"
+		"textAlignment"	"west"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"juliaBlurLarge"
+		"fgcolor_override"	"juliaShadow"
+	}
+
+	"IndividualChargesLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"IndividualChargesLabel"
+		"xpos"			"172"
+		"ypos"			"10"
+		"zpos"			"2"
+		"wide"			"128"
+		"tall"			"64"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#TF_IndividualUberchargesMinHUD"
+		"textAlignment"	"west"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"juliaLarge"
+		"fgcolor_override"	"juliaFG"
+	}
+
+	"ChargeMeter"
+	{
+		"ControlName"	"ContinuousProgressBar"
+		"fieldName"		"ChargeMeter"
+		"font"			"Default"
+		"xpos"			"0"
+		"ypos"			"30"
+		"zpos"			"2"
+		"wide"			"152"
+		"tall"			"4"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"Left"
+		"dulltext"		"0"
+		"brighttext"	"0"
+	}
+
+	"ChargeMeter1"
+	{
+		"ControlName"	"ContinuousProgressBar"
+		"fieldName"		"ChargeMeter1"
+		"font"			"Default"
+		"xpos"			"0"
+		"ypos"			"30"
+		"zpos"			"2"
+		"wide"			"74"
+		"tall"			"4"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"Left"
+		"dulltext"		"0"
+		"brighttext"	"0"
+	}
+
+	"ChargeMeter2"
+	{
+		"ControlName"	"ContinuousProgressBar"
+		"fieldName"		"ChargeMeter2"
+		"font"			"Default"
+		"xpos"			"78"
+		"ypos"			"30"
+		"zpos"			"2"
+		"wide"			"76"
+		"tall"			"4"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"Left"
+		"dulltext"		"0"
+		"brighttext"	"0"
+	}
+
+	"ChargeMeter3"
+	{
+		"ControlName"	"ContinuousProgressBar"
+		"fieldName"		"ChargeMeter3"
+		"font"			"Default"
+		"xpos"			"0"
+		"ypos"			"38"
+		"zpos"			"2"
+		"wide"			"74"
+		"tall"			"4"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"Left"
+		"dulltext"		"0"
+		"brighttext"	"0"
+	}
+
+	"ChargeMeter4"
+	{
+		"ControlName"	"ContinuousProgressBar"
+		"fieldName"		"ChargeMeter4"
+		"font"			"Default"
+		"font"			"Default"
+		"xpos"			"78"
+		"ypos"			"38"
+		"zpos"			"2"
+		"wide"			"76"
+		"tall"			"4"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"Left"
+		"dulltext"		"0"
+		"brighttext"	"0"
+	}
+
+	"HealthClusterIcon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HealthClusterIcon"
+		visible 0
+		enabled 0
+	}
+	"ResistIconAnchor"
+	{
+		"ControlName" "EditablePanel"
+		"fieldName" "ResistIconAnchor"
+		"xpos" "88"
+		"ypos" "58"
+		"wide" "0"
+		"tall" "0"
+		"visible" "1"
+		"enabled" "1"
+	}
+	"ResistIcon"
+	{
+		"ControlName" "ImagePanel"
+		"fieldName" "ResistIcon"
+		"xpos" "0"
+		"ypos" "0"
+		"wide" "24"
+		"tall" "24"
+		"visible" "1"
+		"enabled" "1"
+		"image" "../HUD/defense_buff_bullet_blue"
+		"scaleImage" "1"
+		"pin_to_sibling" "ResistIconAnchor"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
+	}
+
+}
